@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Zip</id>
+    <version>3.0</version>
+    <title>Zip</title>
+    <authors>Ed Gordon</authors>
+    <owners>Mike Barker</owners>
+    <licenseUrl>http://www.info-zip.org/license.html</licenseUrl>
+    <projectUrl>http://www.info-zip.org/Zip.html</projectUrl>
+    <iconUrl>http://www.info-zip.org/images/zip-32-40t.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Zip is a compression and file packaging/archive utility. Although highly compatible both with PKWARE's PKZIP and PKUNZIP utilities for MS-DOS and with Info-ZIP's own UnZip, our primary objectives have been portability and other-than-MSDOS functionality. Features not found in the PKWARE version include:
+creating zipfiles in a pipe or on a device
+VMS and OS/2 extended file attributes
+conversion between Unix, MS-DOS and Macintosh text file formats
+the ability to run on most of your favorite operating systems.
+
+Plus it's free, as is the source code. Whoa.
+
+Zip is useful for packaging a set of files for distribution, for archiving files, and for saving disk space by temporarily compressing unused files or directories. Zip puts one or more compressed files into a single ZIP archive, along with information about the files (name, path, date, time of last modification, protection, and check information to verify file integrity). An entire directory structure can be packed into a ZIP archive with a single command.
+
+Zip has one compression method (deflation) and can also store files without compression. Zip automatically chooses the better of the two for each file. Compression ratios of 2:1 to 3:1 are common for text files.</description>
+    <summary>A compressor/archiver for creating and modifying zipfiles.</summary>
+    <tags>zip, compression, archive</tags>
+  </metadata>
+</package>
